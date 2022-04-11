@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+  background-color: #f5f5f57e;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+  width: 6rem;
+  -webkit-filter: drop-shadow(#4e4e4e 0px 2px 15px);
+          filter: drop-shadow(#4e4e4e 0px 2px 15px);
+}
+
+#navmenu a {
+  font-size: 1.4rem;
+}
+
+.cover {
+  position: relative;
+  height: 600px;
+}
+
+.c1 {
+  background: url("/assets/photos/home-banner.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+.c2 {
+  background: url("/assets/photos/clanstvo-banner.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+.c3 {
+  background: url("/assets/photos/Kontakt.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+#textBox {
+  width: 100%;
+  height: 100%;
+  background-color: #212529bd;
+}
+
+#textBox h2 {
+  font-size: 5rem;
+}
+
+#textBox p {
+  font-size: 1.5rem;
+}
+
+#textBox a {
+  position: absolute;
+  bottom: 10%;
+  font-size: 3rem;
+  -webkit-animation-name: float;
+          animation-name: float;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+@-webkit-keyframes float {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 5%;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes float {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 5%;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+#bigLogo {
+  -webkit-filter: drop-shadow(rgba(78, 78, 78, 0.637) 0px 5px 10px);
+          filter: drop-shadow(rgba(78, 78, 78, 0.637) 0px 5px 10px);
+}
+
+#about h2 {
+  font-size: 2.3rem;
+}
+
+#about p {
+  font-size: 1.2rem;
+}
+
+#about a {
+  font-size: 1.1rem;
+}
+
+#banner {
+  width: 100%;
+  background-image: url("/assets/photos/ball-set-cues.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#banner #dimmer {
+  width: 100%;
+  height: 100%;
+  background-color: #212529bd;
+}
+
+#banner #dimmer > div {
+  width: 100%;
+  height: 100%;
+}
+
+#banner #dimmer i {
+  font-size: 4rem;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+          filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+}
+
+#banner #dimmer p {
+  font-size: 1.3rem;
+}
+
+#carouselExampleIndicators {
+  width: 60%;
+  background-color: #2125291a;
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+          filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #DEDEDE;
+  font-size: 1.5rem;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+footer a:hover {
+  color: #fafafa;
+}
+
+footer a i {
+  margin-right: 10px;
+}
+
+#sector {
+  max-width: 1200px;
+}
+
+.card {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
+
+.card a {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#form div:nth-child(2) {
+  -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+          filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+}
+
+#form #sect1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#form #sect2 {
+  background-color: #212529a9;
+}
+
+#form input, #form input::-webkit-input-placeholder, #form textarea, #form textarea::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: #ffffff;
+  outline: hidden;
+}
+
+#form input, #form input:-ms-input-placeholder, #form textarea, #form textarea:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: #ffffff;
+  outline: hidden;
+}
+
+#form input, #form input::-ms-input-placeholder, #form textarea, #form textarea::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: #ffffff;
+  outline: hidden;
+}
+
+#form input, #form input::placeholder, #form textarea, #form textarea::placeholder {
+  font-size: 1.3rem;
+  color: #ffffff;
+  outline: hidden;
+}
+
+#form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+}
+
+#form a {
+  font-size: 1.8rem;
+}
+
+#form i {
+  margin-right: 20px;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+  footer div:nth-of-type(3) {
+    margin-bottom: 100px;
+  }
+  footer div:nth-of-type(4) {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  #textBox h2 {
+    font-size: 4.5rem;
+  }
+  #carouselExampleIndicators {
+    width: 90%;
+  }
+  #cards .container div {
+    margin-top: 50px;
+  }
+  #cards .container div:first-of-type {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  #textBox h2 {
+    font-size: 4rem;
+  }
+  #dimmer {
+    width: 100%;
+    height: 100%;
+    background-color: #212529bd;
+  }
+  #dimmer > div {
+    width: 100%;
+    height: 100%;
+  }
+  #dimmer i {
+    font-size: 4rem;
+    -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+            filter: drop-shadow(rgba(0, 0, 0, 0.637) 0px 5px 5px);
+  }
+  #dimmer p {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

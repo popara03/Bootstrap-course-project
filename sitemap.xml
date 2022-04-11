@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://popara9921.netlify.app/</loc>
+        <lastmod>2022-4-3</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+
+        <loc>https://popara9921.netlify.app/membership.html</loc>
+        <lastmod>2022-4-3</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+
+        <loc>https://popara9921.netlify.app/contact.html</loc>
+        <lastmod>2022-4-3</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+
+        <loc>https://poparadesign.netlify.app/</loc>
+        <lastmod>2022-4-3</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
